@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="image.ico">
+    <title>Chat with Ollama</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script>
+        async function sendMessage() {
+            let userMessage = document.getElementById("userMessage").value;
+            let chatBox = document.getElementById("chatBox");
+
+            if (!userMessage) return;
+
+            let userMessageElement = document.createElement("p");
+            userMessageElement.innerHTML = `<strong>You:</strong> ${userMessage}`;
+            userMessageElement.classList.add("w3-animate-opacity");
+            chatBox.appendChild(userMessageElement);
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            let response = await fetch("/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: userMessage })
+            });
+
+            let result = await response.json();
+            let botMessageElement = document.createElement("p");
+            botMessageElement.innerHTML = `<strong>Ollama:</strong> ${result.response}`;
+            botMessageElement.classList.add("w3-animate-opacity");
+            chatBox.appendChild(botMessageElement);
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            document.getElementById("userMessage").value = "";
+        }
+
+        async function resetChat() {
+            await fetch("/reset", { method: "POST" });
+            document.getElementById("chatBox").innerHTML = "<p class='w3-animate-opacity'>Chat reset.</p>";
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("userMessage").addEventListener("keypress", function(event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    sendMessage();
+                    document.getElementById("userMessage").value = "";
+                }
+            });
+        });
+    </script>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+        }
+        .chat-container {
+            background-color: #2a2a2a;
+            border-radius: 10px;
+            padding: 30px;
+            animation: w3-animate-top 0.5s;
+        }
+        #chatBox {
+            background-color: #333;
+            color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            animation: w3-animate-zoom 0.5s;
+        }
+        .w3-input, .w3-button {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body class="w3-container" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <div class="w3-container w3-padding w3-card chat-container" style="max-width: 500px; width: 100%; text-align: center;">
+        <h2 class="w3-text-light-grey">Chat with Ollama</h2>
+        <div id="chatBox" class="w3-border w3-padding" style="width: 100%; height: 400px; overflow-y: auto; text-align: left; font-size: 1.2em;"></div>
+        <input type="text" id="userMessage" class="w3-input w3-border w3-margin-top" placeholder="Type a message..." style="background-color: #444; color: white;">
+        <button class="w3-button w3-blue w3-margin-top w3-large" onclick="sendMessage()">Send</button>
+        <button class="w3-button w3-red w3-margin-top w3-large" onclick="resetChat()">Reset Chat</button>
+    </div>
+</body>
+</html>
