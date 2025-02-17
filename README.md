@@ -19,11 +19,27 @@ You need to have a Github account.
 
 INSTRUCTIONS FOR ABOVE: https://github.com/ollama/ollama-python
 
-## 1.0 Make github account
+## Recommended: Setting up Python for Github Codespaces
+
+> Note: (These steps are not necessary but are extremely recommended as they improve the Python experience)
+
+Github codespaces come with Python 3.12.1 pre-installed, but in order to use it properly use it we need to install some things.
+
+## Install the Python extensions in VS Code
+Click on the three squares in the left corner to open up the extensions tab, this is where you can see and install all of your extensions.
+We are not going to install them this way but if you want to you can.
+
+To install the necessary Python extensions start by clicking `CRTL + SHIFT + E` to open the explorer.
+Click the little new file button and in the menu that pops up type `test.py`. Make sure the .py part is there.
+Then you will get a notification asking "Do you want to install the recommended python extensions?", here you click install and wait for the extensions to install.
+
+Now you can start writing your first Python script!
+
+## 1.0 Make Github account
 You need to have a Github account first.
 
 ## 2.0 Make repository
-Create a new github repository. With a readme file
+Create a new Github repository. With a readme file
 ![Create a repository](https://media.geeksforgeeks.org/wp-content/uploads/20190826235103/4-155.png)
 
 ## 3.0 Make codespace for the repo 
