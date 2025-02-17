@@ -1,5 +1,5 @@
 
-# Ollama on Github 
+# Ollama on Github Codespaces
 These are the instructions for running the Deepseek AI model on Ollama via Github.
 You need to have a Github account.
 
