@@ -5,6 +5,8 @@ These are the instructions for using the Jackbord
 Connecting to the Jackbord is different depending on what model you have
 
 [Virtual Jackbord](#Virtual-Jackbord)
+[Jackbord Basic](#Jackbord-Basic)
+[Jackbord Pro](#Jackbord-Pro)
 
 ## Virtual Jackbord
 
