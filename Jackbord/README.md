@@ -55,3 +55,15 @@ You have successfully connected your Jackbord Basic to your computer
  8. Once the Jackbord Option has gone green click the play icon
 
 You have successfully connected your Jackbord Pro to your computer
+
+### Testing Your Connection
+
+You can test the connection to your Jackbord by going to the CMD tab on the side or clicking ctrl + X  or ⌘ + X to open a terminal window
+then type hi and you should see it respond with somthing similar to
+
+    > Hello from 10DF
+    
+    (c) JackBord Works Ltd
+
+
+If you have a physical jackbord the lights on it will light up
