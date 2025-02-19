@@ -45,25 +45,27 @@ You have successfully connected your Jackbord Basic to your computer
 
 ### Jackbord Pro
 
- 1. Go to [jb.jackbord.org](https://jb.jackbord.org)
- 2. Sign in using your Google Account
- 3. Click Create Personality
- 4. Give your Jackbord a name using the format word.word I will use  Pro.Jackbord for this example
- 5. You will see the name you selected show up in the list of options click the Octagon on it
- 6. Enter the ID on the side on your Jackbord then click Next
- 7. Complete the colour challenge by entering the colors in the order the appear on your Jackbord
- 8. Once the Jackbord Option has gone green click the play icon
+ 1. Make sure your Jackbord is charged
+ 2. Go to [jb.jackbord.org](https://jb.jackbord.org)
+ 3. Sign in using your Google Account
+ 4. Click Create Personality
+ 5. Give your Jackbord a name using the format word.word I will use  Pro.Jackbord for this example
+ 6. You will see the name you selected show up in the list of options click the Octagon on it
+ 7. Turn on your Jackbord
+ 8. Enter the ID on the side on your Jackbord then click Next
+ 9. Complete the colour challenge by entering the colors in the order the appear on your Jackbord
+ 10. Once the Jackbord Option has gone green click the play icon
 
 You have successfully connected your Jackbord Pro to your computer
 
 ### Testing Your Connection
 
 You can test the connection to your Jackbord by going to the CMD tab on the side or clicking alt + X  or ⌥ + X to open a terminal window
-then type hi and you should see it respond with somthing similar to
+then type hi and you should see it respond with something similar to
 
     > Hello from 10DF
     
     (c) JackBord Works Ltd
 
 
-If you have a physical jackbord the lights on it will light up
+If you have a physical jackbord the lights on it will light up in a rainbow pattern
