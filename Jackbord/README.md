@@ -4,6 +4,8 @@ These are the instructions for using the Jackbord
 # Connecting to the Jackbord
 Connecting to the Jackbord is different depending on what model you have
 
+[Virtual Jackbord](#Virtual-Jackbord)
+
 ## Virtual Jackbord
 
  1. Go to [jb.jackbord.org](https://jb.jackbord.org)
@@ -34,9 +36,11 @@ You have successfully connected your Jackbord Basic to your computer
 
 
 > Notes:
->
+> 
 > USB-C ports are **NOT** supported by the Jackbord basic
->
+> 
 > Only Google Chrome and Microsoft Edge are supported
 
 ## Jackbord Pro
+
+
