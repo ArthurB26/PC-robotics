@@ -1,14 +1,14 @@
 # Getting Started With The Jackbord
 These are the instructions for using the Jackbord
 
-# Connecting to the Jackbord
+## Connecting to the Jackbord
 Connecting to the Jackbord is different depending on what model you have
 
 [Virtual Jackbord](#Virtual-Jackbord)
 [Jackbord Basic](#Jackbord-Basic)
 [Jackbord Pro](#Jackbord-Pro)
 
-## Virtual Jackbord
+### Virtual Jackbord
 
  1. Go to [jb.jackbord.org](https://jb.jackbord.org)
  2. Sign in using your Google Account
@@ -20,7 +20,7 @@ Connecting to the Jackbord is different depending on what model you have
 
 You have successfully made a virtual Jackbord
 
-## Jackbord Basic
+### Jackbord Basic
 
 1. Go to [jb.jackbord.org](https://jb.jackbord.org)
  2. Sign in using your Google Account
@@ -43,7 +43,7 @@ You have successfully connected your Jackbord Basic to your computer
 > 
 > Only Google Chrome and Microsoft Edge are supported
 
-## Jackbord Pro
+### Jackbord Pro
 
  1. Go to [jb.jackbord.org](https://jb.jackbord.org)
  2. Sign in using your Google Account
