@@ -58,7 +58,7 @@ You have successfully connected your Jackbord Pro to your computer
 
 ### Testing Your Connection
 
-You can test the connection to your Jackbord by going to the CMD tab on the side or clicking ctrl + X  or ⌘ + X to open a terminal window
+You can test the connection to your Jackbord by going to the CMD tab on the side or clicking alt + X  or ⌥ + X to open a terminal window
 then type hi and you should see it respond with somthing similar to
 
     > Hello from 10DF
