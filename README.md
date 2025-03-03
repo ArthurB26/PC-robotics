@@ -5,6 +5,10 @@ Here you can find template code, how-to guides or share your thoughts and ideas 
 ## How can I install the latest source code quickly?
 If you would like to download the latest stable code, you can check our [releases](https://github.com/ArthurB26/PC-robotics/releases) page. There is also a pre-release which contains code that has not been thoroughly tested, but has the newest features.
 
+## How Should I Use This Repository?
+We recommend downloading the **latest** code from the releases for local use or clicking "Use this template" to create a new repository for use in Codespaces.
+> Note: When new changes or releases are made, your repository or download will **NOT** update automatically.
+
 ## I've had some issues trying to run the code myself. How can I look for help?
 Code not working as expected? Feel free to check out our [issues](https://github.com/ArthurB26/PC-robotics/issues) page. If no one else has reported the same issue as you, you can create a new one.
 
