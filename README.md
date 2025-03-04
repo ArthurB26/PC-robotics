@@ -33,7 +33,7 @@ Code not working as expected? Feel free to check out our [issues](https://github
 > [!CAUTION]
 > Please do **NOT** touch anything inside the following folders:
 > 
-> It is very likely to break your project unless you know what you are doing, But we encourage you to have a look and ask questions about it using disscusions
+> It is very likely to break your project unless you know what you are doing, But we encourage you to have a look and ask questions about it using [discussions](https://github.com/ArthurB26/PC-robotics/discussions)
 > - .github
 > - .devcontainer
 
