@@ -1,4 +1,3 @@
-
 # Welcome to the PC-Robotics GitHub Repository!
 Here you can find template code, how-to guides or share your thoughts and ideas with us for our robotics club.
 
@@ -6,8 +5,13 @@ Here you can find template code, how-to guides or share your thoughts and ideas 
 If you would like to download the latest stable code, you can check our [releases](https://github.com/ArthurB26/PC-robotics/releases) page. There is also a pre-release which contains code that has not been thoroughly tested, but has the newest features.
 
 ## How Should I Use This Repository?
-We recommend downloading the **latest** code from the releases for local use or clicking "Use this template" to create a new repository for use in Codespaces. We reccomend you use GitHub code spaces because they are much less restricted in terms of performance and security than your own laptop or school computers, and they also have alot of the steps get completed when you copy our repository and use a codespace
-> Note: When new changes or releases are made, your repository or download will **NOT** update automatically.
+We recommend downloading the **latest** code from the releases for local use or clicking "Use this template" to create a new repository for use in Codespaces. 
+
+> [!TIP]
+> We reccomend you use GitHub code spaces because they are much less restricted in terms of performance and security than your own laptop or school computers, and they also have alot of the steps get completed when you copy our repository and use a codespace
+
+> [!NOTE]
+> When new changes or releases are made, your repository or download will **NOT** update automatically.
 
 ## I've had some issues trying to run the code myself. How can I look for help?
 Code not working as expected? Feel free to check out our [issues](https://github.com/ArthurB26/PC-robotics/issues) page. If no one else has reported the same issue as you, you can create a new one.
@@ -21,6 +25,15 @@ Code not working as expected? Feel free to check out our [issues](https://github
 - In Polls we will hold polls about future releases and other general things
 - Q&A can be used for getting answers to your questions
 - Show and Tell can be used for telling others about your projects and showing off things you made
+---
+
+# Folders
+> [!CAUTION]
+> Please do **NOT** touch anything inside the following folders:
+> 
+> It is very likely to break your project unless you know what you are doing, But we encourage you to have a look and ask questions about it using disscusions
+> - .github
+> - .devcontainer
 
 ## [Ollama](https://github.com/ArthurB26/PC-robotics/tree/main/Ollama)
 After doing some research on AI, we've experimented with Ollama to see its capabilities. Ollama is an open-source tool which can run AI models locally on a computer without needing an internet connection. Unfortunately, Ollama cannot be run on most school laptops/chromebooks due to its high hardware requirements. To counter this, we've looked into GitHub Codespaces, which is a virtual machine that can run Ollama. After some programming, we have created a Python script to chat with one of Ollama's language models - Llama 3.2.
