@@ -3,6 +3,8 @@
 ## What are esp32's?
 
 Esp32's are a small microcontroller produced by Espressif systems. They are a low cost, low power microcontroller.
+![esp32](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2022/10/ESP32-module.png?resize=273%2C227&quality=100&strip=all&ssl=1)
+
 The things that sets apart ESP32's from other micro controllers like an arduino:
   1. They are extremly low cost, you can buy one for around 10 NZD
   2. They have built in wifi and bluetooth.
@@ -27,9 +29,24 @@ click on the __Windows *msi installer*__ file
 
 _If you are prompted to donate just click **Just download**_
 
+
 _then you might be asked to put in you email, just click **download** again.
 
 It will then take some time to download.
 
 Then open the file that has just downloaded.
+once it is done you will be able to open it from the desktop or from the launcher.
+Now you should have Arduino IDE open.
+![ide](https://docs.arduino.cc/static/e534053def4bc0eb97a3b6ba9cf31853/29114/ide-2-overview.png)
+
+
+
+
+
+
+
+
+
+
+
 
