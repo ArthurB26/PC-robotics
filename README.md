@@ -8,10 +8,12 @@ If you would like to download the latest stable code, you can check our [release
 We recommend downloading the **latest** code from the releases for local use or clicking "Use this template" to create a new repository for use in Codespaces. 
 
 > [!TIP]
-> We reccomend you use GitHub code spaces because they are much less restricted in terms of performance and security than your own laptop or school computers, and they also have alot of the steps get completed when you copy our repository and use a codespace
+> We reccomend you use GitHub Codespaces because they are much less restricted in terms of performance and security than your personal laptop or school computers, and they also have alot of the steps get completed when you copy our repository and use a codespace
 
 > [!NOTE]
-> When new changes or releases are made, your repository or download will **NOT** update automatically.
+> - When new changes or releases are made, your repository or download will **NOT** update automatically.  
+> - Releases will not get updated as often as the Repository  
+> - When clicking the "use this template" button you will get the pre-release version.
 
 ## I've had some issues trying to run the code myself. How can I look for help?
 Code not working as expected? Feel free to check out our [issues](https://github.com/ArthurB26/PC-robotics/issues) page. If no one else has reported the same issue as you, you can create a new one.
