@@ -37,11 +37,9 @@ You have successfully made a virtual Jackbord
 You have successfully connected your Jackbord Basic to your computer
 
 
-> Notes:
-> 
-> USB-C ports are **NOT** supported by the Jackbord basic
-> 
-> Only Google Chrome and Microsoft Edge are supported
+> [!NOTE]
+> USB-C ports are **NOT** supported by the Jackbord basic  
+> Only Google Chrome and Microsoft Edge are supported  
 
 ### Jackbord Pro
 
@@ -69,3 +67,7 @@ then type hi and you should see it respond with something similar to
 
 
 If you have a physical jackbord the lights on it will light up in a rainbow pattern
+
+## Running Code
+
+On the left of the [jb.jackbord.org](https://jb.jackbord.org) site you will see a prog tab this is where you program your Jackbord  
