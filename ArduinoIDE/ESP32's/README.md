@@ -40,6 +40,64 @@ Now you should have Arduino IDE open.
 ![ide](https://docs.arduino.cc/static/e534053def4bc0eb97a3b6ba9cf31853/29114/ide-2-overview.png)
 
 
+> [!NOTE]
+> This is the new version of the arduino ide known as Arduino ide 2.0
+
+# Installing Arduino IDE on chromebook.
+
+## Step 1: Set up devoloper tools
+
+first open up Settings on your chromebook.
+Then navigate to the bottom of the menu and click on **"About Chrome OS"**
+if you scroll down a little bit you will see Linux devolopment enviroment.
+click on the **set up** button to install Linux.
+
+If this button is greyed out or you cant install Linux then use the [Arduino Cloud editor](https://cloud.arduino.cc/)
+
+A window will open, Click **Next,** then finally click **Install**. Wait for the virtual machine to download. Once its done a new Terminal will open.
+
+### What Am I installing?
+
+The linux devolopment enviroment is a linux virtual meachine based on the linux distrobuition called [Debian Bookworm](https://www.debian.org/releases/bookworm/) It is a very popular linux distrobution but is quite old so can carry some bugs and old apps. Keep this in mine if you are having trouble with anything. It is possible to change the distrobution but Bookorm is the latest option.
+
+## Installing the IDE through terminal.
+
+Since we will be using a virtual machine for this we dont have a "Desktop" UI like on most operating systems. We just have a terminal. so almost all of the file management and machine level things will be throught the terminal. 
+
+Our first command is:
+`sudo apt update`
+
+This will update all of the installed packages and system files in our virtual machine.
+
+wait for all the commands to finish then type:
+
+`sudo apt install arduino`
+
+### Explanation.
+
+In all of these commands the "sudo part" stands for *SuperUser Do* this just means that you have admin privelages, if you are ever trying to install something and it says *Permission denied* then just add `sudo` at the start.
+The "apt" part stands for *Advanced Package Tool* this is a command that we will use for all kinds of applications.
+Finnally Arduino is the program we are installing.
+
+
+
+Once all the commands have finished you can type: `arduino` into the terminal to open it.
+
+A new windows should open up and this is the IDE.
+
+> [!NOTE]
+>  You dont have to open from the command line every time, there should be an icon on your launcher that you can click. Using the terminal for the first launch is good because it displays debugging information.
+
+> [!NOTE]
+> You may notice that this window of code looks quite differnt to the image and to the windows this is because this is arduino ide 1.0 which is an older version
+
+
+
+
+
+
+
+
 
 
 
