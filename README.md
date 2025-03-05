@@ -40,7 +40,7 @@ Code not working as expected? Feel free to check out our [issues](https://github
 ## [Ollama](https://github.com/ArthurB26/PC-robotics/tree/main/Ollama)
 After doing some research on AI, we've experimented with Ollama to see its capabilities. Ollama is an open-source tool which can run AI models locally on a computer without needing an internet connection. Unfortunately, Ollama cannot be run on most school laptops/chromebooks due to its high hardware requirements. To counter this, we've looked into GitHub Codespaces, which is a virtual machine that can run Ollama. After some programming, we have created a Python script to chat with one of Ollama's language models - Llama 3.2.
 
-## Jackbord
+## [Jackbord](https://github.com/ArthurB26/PC-robotics/tree/main/Jackbord)
 JackBord provides authentic, hands on, real world experiences to ignite young learners imaginations and innate curiosity and creativity in Science, Technology, Engineering, Maths, Electronics, Graphics, sought by educators world wide. We are on a mission to help young learners of all abilities into the exciting world of STEM.
  
 JackBord's "out of the box" extensive suite of long life, robust, multifunctional electrical devices, sensors, servos, construction materials, software and learning materials require no prior knowledge to use. 
@@ -48,3 +48,5 @@ Because Jack is dyslexic he needed to make devices difficult to break and "brick
 ​
 There is a JackBord for everyone, from the JackBord Basic, the Virtual JackBord to the JackBord Pro, with its powerful processors, numerous inbuilt sensors and remote capability.
 Users can add external sensors built on JackBord's unique Universal Sensor Interface, pre built science and robotic kits using our own metal JacKano (or make up their own) and learn coding, data logging and analytics with JackBord's own Octagon programme-an easy segue to other programmes such as Python. 
+
+## [Microcontrollers](https://github.com/ArthurB26/PC-robotics/tree/main/Microcontrollers)
