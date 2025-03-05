@@ -23,7 +23,7 @@ Arduino IDE is an Intergrated Development Enviroment which is just a fancy acron
 
 to download first we will have to go to: [arduino.cc](https://www.arduino.cc/en/software)
 then click on which ever platform you will be using in I will show mac and Windows
-###On windows:
+### On windows:
 click on the __Windows *msi installer*__ file
 
 
@@ -90,6 +90,45 @@ A new windows should open up and this is the IDE.
 
 > [!NOTE]
 > You may notice that this window of code looks quite differnt to the image and to the windows this is because this is arduino ide 1.0 which is an older version
+
+
+
+
+# Installing libraries and boards.
+
+> [!NOTE]
+> I will be using the Arduino IDE 2.0 from the windows install, I will include thhe steps for chromebook and 1.0 afterwards.
+
+The next step in our journey is to install all of the required boards and board packages to get an esp32 to work witht the IDE.
+
+Step 1: On the left side of the screen, there will be a little menu, from here locate the "Boards Manager". See image.
+
+Step2: In the search bar search for esp32
+
+Step 3: Install the ESP32 Boards by clicking **Install** next to "**esp32 by Espressif**".
+See image for help:
+![steps](https://www.espboards.dev/img/zIthkIjFiN-900.png)
+
+Next we need to add the board URL:
+
+  1. Go to File > Prefrences.
+  2. In the Additional Board Manager URLs field, add the following URL: `https://espressif.github.io/arduino-esp32/package_esp32_dev_index.json`
+  3. if needed you might need to go back to the boards manager and install again.
+
+## If you are on IDE 1.0
+
+the instructions are mostly the same, except the boards manager is located under Tools > Board> Boards manager.
+![manager](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/06/boardsManager.png?resize=628%2C568&quality=100&strip=all&ssl=1)
+
+then search esp32 and install the boards by espressif
+
+If there is no boards named esp32 or you cant find them, you can add it manually by going to File > Prefrences amd then past this into the additional boards URL: `https://espressif.github.io/arduino-esp32/package_esp32_dev_index.json
+
+![boards](https://cdn.sparkfun.com/assets/learn_tutorials/1/2/6/5/preferences_url.PNG)
+
+
+Congratulations you have now installed all the nescacary requirments for coding your first project with an ESP32!
+
 
 
 
