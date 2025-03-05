@@ -129,6 +129,8 @@ If there is no boards named esp32 or you cant find them, you can add it manually
 
 Congratulations you have now installed all the nescacary requirments for coding your first project with an ESP32!
 
+In this folder there will also be a file for creating your first CPP code.
+
 
 
 
