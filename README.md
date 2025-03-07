@@ -50,3 +50,7 @@ There is a JackBord for everyone, from the JackBord Basic, the Virtual JackBord 
 Users can add external sensors built on JackBord's unique Universal Sensor Interface, pre built science and robotic kits using our own metal JacKano (or make up their own) and learn coding, data logging and analytics with JackBord's own Octagon programme-an easy segue to other programmes such as Python. 
 
 ## [Microcontrollers](https://github.com/ArthurB26/PC-robotics/tree/main/Microcontrollers)
+
+# Updates
+[![pages-build-deployment](https://github.com/ArthurB26/PC-robotics/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ArthurB26/PC-robotics/actions/workflows/pages/pages-build-deployment)
+[![Dependabot Updates](https://github.com/ArthurB26/PC-robotics/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/ArthurB26/PC-robotics/actions/workflows/dependabot/dependabot-updates)
