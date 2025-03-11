@@ -1,0 +1,18 @@
+{
+    "name": "Jackbord MQTT AI",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-20.04",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
+    "postCreateCommand": "/bin/bash -c 'sudo apt update && sudo apt install -y python3 python3-pip tmux && pip install paho-mqtt'",
+    
+    "hostRequirements": {
+       "cpus": 2,
+       "memory": "16gb",
+       "storage": "32gb"
+    }
+}
