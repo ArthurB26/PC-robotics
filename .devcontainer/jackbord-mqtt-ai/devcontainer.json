@@ -1,0 +1,18 @@
+{
+    "name": "Jackbord MQTT AI",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-20.04",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
+    "postCreateCommand": "/bin/bash -c 'curl -fsSL https://ollama.com/install.sh | sh && sudo apt update && sudo apt install -y python3 python3-pip tmux && pip install ollama && pip install paho-mqtt && tmux new-session -d -s ollama_session \"ollama serve\" && sleep 10 && ollama pull deepseek-r1:1.5b && ollama pull llama3.2'",
+    
+    "hostRequirements": {
+       "cpus": 2,
+       "memory": "16gb",
+       "storage": "32gb"
+    }
+}
