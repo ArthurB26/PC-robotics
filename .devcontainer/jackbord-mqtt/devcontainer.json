@@ -1,5 +1,5 @@
 {
-    "name": "Jackbord MQTT AI",
+    "name": "Jackbord MQTT",
     "image": "mcr.microsoft.com/vscode/devcontainers/base:0-ubuntu-20.04",
     "customizations": {
         "vscode": {
@@ -12,7 +12,7 @@
     
     "hostRequirements": {
        "cpus": 2,
-       "memory": "16gb",
-       "storage": "32gb"
+       "memory": "4gb",
+       "storage": "16gb"
     }
 }
