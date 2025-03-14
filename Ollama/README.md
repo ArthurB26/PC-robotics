@@ -3,6 +3,7 @@
 These are the instructions for running the Deepseek AI model on Ollama via Github.
 You need to have a Github account.
 
+``` python
     from ollama import chat
     from ollama import ChatResponse
     
@@ -15,7 +16,7 @@ You need to have a Github account.
     ])
     print(response.message.content)
     ]1
-
+```
 
 INSTRUCTIONS FOR ABOVE: https://github.com/ollama/ollama-python
 
@@ -65,17 +66,19 @@ The terminal is at the bottom as shown below:
 
 ## 5.0 Install Ollama
 Run this command in the terminal:
-
-    curl -fsSL https://ollama.com/install.sh | sh
-
+``` bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
 You will get:
 
 ## 6.0 Test the Installation
 Run:
+``` bash
 ollama -h
-
+```
 Gives:
 
+```
     Usage:
       ollama [flags]
       ollama [command]
@@ -99,12 +102,12 @@ Gives:
       -v, --version   Show version information
     
     Use "ollama [command] --help" for more information about a command.
-
+```
 ## 7.0 Run the Ollama Server
 At the command line run:
-
-    ollama serve
-
+``` bash
+ollama serve
+```
 You should see something like this:
 
 
@@ -113,26 +116,27 @@ Now that ollama server is running in the terminal, open another terminal. To ope
 
 Listing the Available Models:
 To get a list of the available models type:
-
-     ollama list
-
-    NAME             ID              SIZE      MODIFIED      
-    llama3:latest    365c0bd3c000    4.7 GB    3 minutes ago    
-
+``` bash
+ollama list
+```
+```
+NAME             ID              SIZE      MODIFIED      
+llama3:latest    365c0bd3c000    4.7 GB    3 minutes ago    
+```
 
 ## 8.0 Now Run the Model llama3
 In the new terminal run the llama3 model by typing:
-
-    ollama run llama3
-
+``` bash
+ollama run llama3
+```
 Once its running and ready for commands you will see:
 
 
 
 Now that its running you can type messages to it by entering them on the command line and pressing Enter. For example to say hi type:	
-
-    hi
-	
+``` bash
+hi
+```	
 It returns:
 
     Hello! How may I help you today?
@@ -142,11 +146,11 @@ It returns:
 ## 9.0 Commands You can Use in the Model
 These are some commands you can use while in the model.
 Type /? To see a list of commands.
-
-	/?
-	
+``` bash
+/?
+```	
 Returns:
-
+```
     Available Commands:
       /set            Set session variables
       /show           Show model information
@@ -158,12 +162,12 @@ Returns:
       /? shortcuts    Help for keyboard shortcuts
     
     Use """ to begin a multi-line message.
-
+```
 ## 9.1 Exiting the model
 To exit the model type:
-
-	 /bye
-
+``` bash
+/bye
+```
 ## 10.0 Using Python with Ollama on Github
 You can run Python programs that interact with the model being run by OIlama.
 
@@ -179,9 +183,9 @@ See ollama.com for more information on the models available.
 
 ## 10.2 First Install Ollama in Python with Pip:
 Run this command in the terminal:
-
-    pip install ollama
-
+``` bash
+pip install ollama
+```
 This will give something like this:
 
 
@@ -212,7 +216,7 @@ Close the tab.
 In this program we ask the illama3.2 model: "Why is the sky blue?"
 
 And add the code below:
-
+``` python
     from ollama import chat
     from ollama import ChatResponse
     
@@ -223,11 +227,11 @@ And add the code below:
       },
     ])
     print(response['message']['content'])
-
+```
 Or access fields directly from the response object
-
+``` python
     print(response.message.content)
-
+```
 
 Your code window will look like this:
 
@@ -235,9 +239,9 @@ Your code window will look like this:
 
 ## 10.6 Load the llama3.2 Model as the Program uses it
 We need to load the illama3.2 model. At the terminal run:
-
+``` bash
     ollama pull llama3.2
-
+```
 Which gives:
 
 
@@ -278,12 +282,12 @@ The text version is:
     In conclusion, the sky appears blue because of the scattering of sunlight by tiny gas molecules in the atmosphere, which favors the shorter wavelengths of light.
 
 Clear the terminal by typing:
-
-	clear
-
+``` bash
+clear
+```
 ## 10.8 Automatic ollama start and stop
 Use the following code to automatically run and stop Ollama:
-
+``` python
     from ollama import chat
     from ollama import ChatResponse
     import ollama
@@ -305,12 +309,12 @@ Use the following code to automatically run and stop Ollama:
       },
     ])
     print(response.message.content)
-
+```
 
 
 
 ## Clean the forwarded ports and stop ollama once the script is done
-
+``` python
     def cleanup():
         print("\nStopping Ollama...")
         ollama_process.terminate()
@@ -321,3 +325,4 @@ Use the following code to automatically run and stop Ollama:
         subprocess.run("kill -9 $(lsof -t -i:11434)", shell=True, check=False)
     
     atexit.register(cleanup)
+```
